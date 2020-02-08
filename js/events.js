@@ -10,10 +10,8 @@ function frameIt(){
   
 }
 
-function pressIt(key){
-  if(key.which == 71){
+function pressIt(){
   alert("G key was pressed")
 }
-}
 
-$("form").on('key down', pressIt(key));
+$("form").on('keydown', if(key.whichpressIt(key));
