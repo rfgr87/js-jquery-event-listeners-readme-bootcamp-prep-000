@@ -14,7 +14,7 @@ function pressIt(key){
   if(key.which === 71){
   alert("G key was pressed")
 }
-else{
+else if(key){
   alert("another key was pressed")
 }
 }
