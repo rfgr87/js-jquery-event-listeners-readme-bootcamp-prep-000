@@ -14,6 +14,9 @@ function pressIt(key){
   if(key.which == 71){
   alert("G key was pressed")
 }
+else{
+  alert("another key was pressed")
+}
 }
 
 $(document).on('keydown', pressIt(key));
