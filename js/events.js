@@ -4,8 +4,6 @@ function getIt(){
   alert("Hey!")
 }
 
-$('p').on('click', function(){
+$('p').on("click", getIt());
 
-// call functions here
 
-});
