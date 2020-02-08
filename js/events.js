@@ -6,4 +6,6 @@ function getIt(){
 
 $('p').on("click", getIt());
 
-
+function frameIt(){
+  
+}
