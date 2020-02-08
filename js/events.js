@@ -16,7 +16,7 @@ function pressIt(key){
 }
 }
 
-$("form").on('keydown', pressIt(key));
+$(document).on('keydown', pressIt(key));
 
 function submitIt(){
   alert('Your form is going to be submitted now.')
