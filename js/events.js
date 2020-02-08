@@ -11,7 +11,7 @@ function frameIt(){
 }
 
 function pressIt(key){
-  if(key.which == 71){
+  if(key.which === 71){
   alert("G key was pressed")
 }
 else{
