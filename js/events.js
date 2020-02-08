@@ -6,15 +6,19 @@ function getIt(){
 
 $('p').on("click", getIt());
 
-function frameIt(){
-  
-}
+
 
 function pressIt(){
   $("input").on("keydown", function(e){
     if (e.which === 71){
       window.alert("G was pressed.");
     }
+  });
+}
+
+function frameIt(){
+  $("img").on("load", function(){
+    $("img").addClass("tasty");
   });
 }
 
