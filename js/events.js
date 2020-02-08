@@ -9,3 +9,8 @@ $('p').on("click", getIt());
 function frameIt(){
   
 }
+
+function pressIt(){
+  if(key.which ==)
+  alert("G key was pressed")
+}
