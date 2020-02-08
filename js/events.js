@@ -10,14 +10,14 @@ function frameIt(){
   
 }
 
-function pressIt(key){
-  if(key.which === 71){
-  alert("G key was pressed")
+function pressIt(){
+  $("input").on("keydown", function(e){
+    if (e.which === 71){
+      window.alert("G was pressed.");
+    }
+  });
 }
-else if(key){
-  alert("another key was pressed")
-}
-}
+
 
 $(document).on('keydown', pressIt(key));
 
